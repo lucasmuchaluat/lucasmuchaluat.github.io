@@ -1,0 +1,302 @@
+html {
+    font-family: sans-serif;
+    background-color: #E8E8E8;
+}
+
+.text {
+  font-family: Georgia, Arial, sans-serif;
+}
+
+.title {
+  font-family: Palatino, Tahoma, Gill Sans, sans-serif;
+}
+
+.header {
+    background-color: #BEBEBE;
+    border-style: solid;
+    border-width: 0.3rem;
+    height: 7rem;
+    margin: 0.75rem;
+    padding: 0.7rem;
+}
+
+.nav {
+    position: absolute;
+    top: -6.25rem;
+    right: -5rem;
+    margin: 10rem;
+}
+
+.nav-item {
+    background-color: #BEBEBE;
+    font-size: 1.1rem;
+    display: inline;
+    margin: 2.0rem;
+    padding: 0.9rem;
+    position: relative;
+}
+
+.text, .figure {
+    width: 100%;
+}
+
+.figure {
+    text-align: center;
+}
+
+.figure img {
+    max-width: 100%;
+    min-height: 10%
+}
+
+.container {
+    background-color: #E8E8E8;
+    padding: 3rem;
+}
+
+.footer {
+    margin-top: 1rem;
+    background-color: #BEBEBE;
+    padding: 0.1rem;
+    align-items: center;
+}
+
+.footer_title {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;   
+}
+
+.footer_text {
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 0.5rem;
+
+}
+
+.submenu {
+    background-color: #D8D8D8;
+    border: 2px solid black;
+    position: absolute;
+    top: 2.2rem;
+    opacity: 5;
+    visibility: hidden;
+    transition: opacity .1s, visibility .1s;
+    z-index: 3;
+}
+
+.nav-item:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.submenu-item {
+    background-color: #D8D8D8;
+    color: black;
+    padding: .25rem;
+    font-size: 1rem;
+}
+
+.submenu-item:hover {
+    background-color: red;
+    color: black;
+}
+
+.jumbotron {
+  padding: 1rem;
+  background-color: #BEBEBE;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  text-align: justify;
+}
+
+.box-container {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: -0.5rem;
+}
+
+.box {
+    margin-top: 1.5rem;
+    width: 35rem;
+    min-height: 10rem;  
+    border-radius: 15px;
+    border-style: solid;
+    background-color: grey;
+    border-color: #3C4F52;
+    color: black;
+
+}
+
+.box:hover {
+    border-radius: 15px;
+    opacity: 1.0;
+    background-color: #3C4F52;
+    border-color: black;
+    color: white;
+
+}
+
+.lead-title {
+    margin-top: 1rem;
+
+}
+
+.topic, .topic-description {
+    margin: 10px;
+}
+
+.text, .topic-description, .lead{
+    text-align: justify;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 5px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.span-btn {
+    visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    position: relative;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+h1::after {
+    content: "";
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid #080808;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    position: relative;
+    margin: 2rem 0;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0;
+    right: 0;
+    border-bottom: 3px solid #ec576b;
+}
+
+@media (max-width: 800px) {
+    .container {
+        background-color: #E8E8E8;
+        padding: 0.75rem;
+    }
+
+    .box-container {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: -0.5rem;
+    }
+
+    .box {
+        margin-top: 1rem;
+        width: 19.5rem;
+        min-height: 10rem;  
+        border-radius: 10px;
+        border-style: solid;
+        background-color: grey;
+        border-color: #3C4F52;
+        color: black;
+    }
+    
+    .topic {
+        font-size: 1.15rem;
+        text-align: center;
+    }
+
+    .footer_title {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;   
+    }
+
+    .footer_text {
+        font-size: 0.75rem;
+        text-align: center;
+        line-height: 0.9rem;
+
+    }
+
+    .nav-menu {
+        visibility: hidden;
+    }
+
+    .span-btn {
+        visibility: visible;
+    }
+
+    #brand-logo {
+        max-width: 10rem;
+        margin-top: -3.35rem; 
+        margin-right: 1.5rem;
+
+    }
+
+    .header {
+        background-color: #BEBEBE;
+        border-style: solid;
+        border-width: 0.3rem;
+        height: 7rem;
+        margin: 0.75rem;
+        padding: 0.7rem;
+    }
+}
+
