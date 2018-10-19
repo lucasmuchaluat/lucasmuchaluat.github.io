@@ -1,0 +1,123 @@
+{
+	"programacao" : {	
+		"curso" : {
+			"projeto_cdd" : {
+				"nome" : "Projeto Final - Ciência dos Dados",
+				"imagem" : "../assets/img/grafico.png",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_codes" : {
+				"nome" : "Projeto Final - Codesign de Aplicativos",
+				"imagem" : "../assets/img/sitepika.png",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_desoft" : {
+				"nome" : "Projeto Final - Design de Software",
+				"imagem" : "../assets/img/mario.png",
+				"descricao" : "O trabalho final de Design de Software consiste em um desenvolvimento de um jogo por meio de programação em Python, usando a biblioteca Pygame. O trabalho final de Design de Software consiste em um desenvolvimento de um jogo por meio de programação em Python, usando a biblioteca Pygame. O trabalho final de Design de Software consiste em um desenvolvimento de um jogo por meio de programação em Python, usando a biblioteca Pygame.",
+				"competencias" : [ "Capacidade lógica;", "Programação em Python;", "Trabalho em equipe;", "Criatividade;", "Capacidade de abstração." ],
+				"passo_a_passo" : [ "Mockup da ideia;", "Desenho das telas do jogo;", "Implementações em python;", "Criação de um menu;", "Uploadar no GitHub;", "Tornar o modelo demonstrável para a feira." ]
+			},
+			"projeto_modsim" : {
+				"nome" : "Projeto Final - Modelagem e Simulação",
+				"imagem" : "../assets/img/power.png",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			}
+		}
+	},
+	"empreendedorismo" : {
+		"curso" : {
+			"inovacao_empresarial" : {
+				"nome" : "Projeto Intermediário - Inovação Empresarial",
+				"imagem" : "../assets/img/empresas.png",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"modelo_startup" : {
+				"nome" : "Projeto Final - Modelo de Startup",
+				"imagem" : "../assets/img/startup.png",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			}
+		}
+	},
+	"eletrica" : {
+		"curso" : {
+			"projeto_girafa" : {
+				"nome" : "Projeto Intermediário - Girafa Luminária",
+				"imagem" : "../assets/img/girafa.png",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_acionamentos" : {
+				"nome" : "Projeto Intermediário - Acionamentos Elétricos",
+				"imagem" : "acionas.png",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_estacao" : {
+				"nome" : "Projeto Intermediário - Estação Meteorológica",
+				"imagem" : "meteoro.png",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			}
+		}
+	},
+	"teorico" : {
+		"curso" : {
+			"projeto_modcon" : {
+				"nome" : "Trabalho final - modelagem e controle",
+				"imagem" : "../assets/img/controle.jpg",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_desconstruindo" : {
+				"nome" : "Trabalho final - desconstruindo a matéria",
+				"imagem" : "../assets/img/quimica.jpg",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_gde" : {
+				"nome" : "Trabalho final - grandes desafios da engenharia",
+				"imagem" : "../assets/img/gde.jpg",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_matvar" : {
+				"nome" : "Trabalho final - matemática da variação",
+				"imagem" : "../assets/img/matvar.gif",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_matmulti" : {
+				"nome" : "Trabalho final - matematica multivariada",
+				"imagem" : "../assets/img/matmulti.gif",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			},
+			"projeto_carroca" : {
+				"nome" : "Trabalho final - natureza do design",
+				"imagem" : "../assets/img/carroca.jpg",
+				"descricao" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+				"competencias" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ],
+				"passo_a_passo" : [ "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet" ]
+			}
+		}
+	}
+}

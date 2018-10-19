@@ -2,13 +2,17 @@
 <html lang="pt-br">
 
     <head>
-        <title class="title">Programação</title>
+        <title class="title">Home</title>
 
         <link href="../assets/css/style.css" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="../assets/js/app.js"></script>
+        <script src="../assets/js/database.js"></script>
+        <script src="../assets/js/fingerprint.js"></script>
+        <script src="../assets/js/ciendad.js"></script>
+        <script src="../assets/js/test.js"></script>
     </head>
-
     <body>
         <header class="header">
             <a href="../index.html"><img id="brand-logo" style="max-width:100rem; margin-top: -3.35rem; margin-left: 1.5rem;" src="../assets/img/insper.png" alt="Portfólio de Disciplinas"></a>
@@ -81,43 +85,79 @@
           <li><a href="../Projetos/projetos.html?categoria=teorico&curso=projeto_carroca" style="font-size: 1.1rem;"> Melhorias Carroça</a></li>
           </ul>
         </div>
-
         <main>
             <div class="container">
                 <span class="span-btn" style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; MENU</span>
                 <div class="jumbotron">
-                      <h2 class="lead-title" style="text-align: center;">Página de Projetos de Programação</h2>
-                      <p class="lead">Projetos de código estão diretamente relacionados a familiarização com softwares e a área de programação. Desta forma, esta seção é destinada para projetos que envolvem algorítmos de programação. Aqui, as seguintes habilidades são desenvolvidas: Definição do problema; Análise de requisitos; Estudo de viabilidade; Análise do domínio do problema; Projeto arquitetural; Implementação; Testes; Cronograma de execução.</p>
+                      <h1 style="text-align: center;">Seja bem-vindo ao Portfólio digital!</h1>
+                      <p class="lead">Aqui nesta página você encontrará os projetos finais das matérias trabalhadas durante o curso de engenharia, com o objetivo de divulgar o trabalho realizado pelos alunos de uma forma prática e organizada. Em cada categoria você encontrará a diciplina que aplicou o projeto, e dentro da disciplina encontrará o projeto final, com uma descrição e explicações.  </p>
+                      <h2 style="text-align: center;">Passo a Passo</h2>
+                      <p class="lead" style="text-align: center;">Leia atentamente o passo a passo que explica como funciona o site: </p>
                 </div>
                 <div class="box-container">
-                    <a href="../Projetos/projetos.html?categoria=programacao&curso=projeto_cdd" style="text-decoration:none;">
-                        <section class="box">
-                            <h4 class="topic">Projeto Final de Ciência dos Dados</h4>
-                            <p class="topic-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eget turpis at rhoncus. Fusce ac enim ac ipsum congue fermentum vel sit amet purus. Quisque luctus diam eget lorem fringilla congue. Duis vitae volutpat tellus, at fermentum lectus. Nam venenatis, magna a aliquet egestas, enim quam interdum eros, at consequat nunc ex a lacus. Praesent tristique tellus at mi molestie, in tristique diam malesuada. Phasellus quis finibus quam. Donec facilisis tortor pellentesque blandit fringilla.</p>
-                        </section>
-                    </a>
-
-                    <a href="../Projetos/projetos.html?categoria=programacao&curso=projeto_codes" style="text-decoration:none;">
-                        <section class="box">
-                            <h4 class="topic">Projeto Final de CoDesign de Aplicativos</h4>
-                            <p class="topic-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eget turpis at rhoncus. Fusce ac enim ac ipsum congue fermentum vel sit amet purus. Quisque luctus diam eget lorem fringilla congue. Duis vitae volutpat tellus, at fermentum lectus. Nam venenatis, magna a aliquet egestas, enim quam interdum eros, at consequat nunc ex a lacus. Praesent tristique tellus at mi molestie, in tristique diam malesuada. Phasellus quis finibus quam. Donec facilisis tortor pellentesque blandit fringilla.</p>
-                        </section>
-                    </a>
-
-                    <a href="../Projetos/projetos.html?categoria=programacao&curso=projeto_desoft" style="text-decoration:none;">
-                        <section class="box">
-                            <h4 class="topic">Projeto Final de Design de Software</h4>
-                            <p class="topic-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eget turpis at rhoncus. Fusce ac enim ac ipsum congue fermentum vel sit amet purus. Quisque luctus diam eget lorem fringilla congue. Duis vitae volutpat tellus, at fermentum lectus. Nam venenatis, magna a aliquet egestas, enim quam interdum eros, at consequat nunc ex a lacus. Praesent tristique tellus at mi molestie, in tristique diam malesuada. Phasellus quis finibus quam. Donec facilisis tortor pellentesque blandit fringilla.</p>
-                        </section>
-                    </a>
-
-                    <a href="../Projetos/projetos.html?categoria=programacao&curso=projeto_modsim" style="text-decoration:none;">
-                        <section class="box">
-                            <h4 class="topic">Projeto Final de Modelagem e Simulação</h4>
-                            <p class="topic-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eget turpis at rhoncus. Fusce ac enim ac ipsum congue fermentum vel sit amet purus. Quisque luctus diam eget lorem fringilla congue. Duis vitae volutpat tellus, at fermentum lectus. Nam venenatis, magna a aliquet egestas, enim quam interdum eros, at consequat nunc ex a lacus. Praesent tristique tellus at mi molestie, in tristique diam malesuada. Phasellus quis finibus quam. Donec facilisis tortor pellentesque blandit fringilla.</p>
-                        </section>
-                    </a>                
+                    <section class="box">
+                        <h4 class="topic">1 - Escolha seu filtro</h4>
+                        <p class="topic-description">Para começar sua pesquisa escolha o tipo de filtro que mais adequa ao trabalho final procurado, podendo filtrar tanto por semestre do curso (encontradas abaixo), como por categoria de habilidades requeridas (disponíveis no menu do site).</p>
+                    </section>
+                    <section class="box">
+                        <h4 class="topic">2 - Identifique a disciplina</h4>
+                        <p class="topic-description">Dentro dos filtros, tanto por semestre quanto por categoria você encontrará as disciplinas, portanto escolha a disciplina que você deseja ver o trabalho.</p>
+                    </section>            
                 </div>
+                <section>
+                    <h2 class="title" style="text-align: center;">Semestres:</h2>
+                    <div class="box-container">
+                    <a href="../Semestres/1semestre.html" style="text-decoration:none;">
+                        <section class="box">
+                            <h4 class="topic">1° Semestre</h4>
+                            <ul>
+                                <li>Modelagem e Simulação do mundo físico</li>
+                                <li>Design de Software</li>   
+                                <li>Instrumentação e Medição</li>
+                                <li> Natureza do Design</li>
+                                <li>Grandes Desafios da Engenharia</li> 
+                            </ul> 
+                        </section>
+                    </a>
+                    <a href="../Semestres/2semestre.html" style="text-decoration:none;">
+                        <section class="box">
+                            <h4 class="topic">2° Semestre</h4>
+                            <ul>
+                                <li>Ciência dos Dados</li>
+                                <li>Física do Movimento</li>
+                                <li>Matemática da variação</li>
+                                <li>Acionamentos Elétricos</li>
+                                <li>Co-Design de Aplicativos</li>         
+                            </ul>
+                        </section>
+                    </a>
+                    <a href="../Semestres/3semestre.html" style="text-decoration:none;">
+                        <section class="box">
+                            <h4 class="topic">3° Semestre</h4>
+                            <ul>
+                                <li>Desconstruindo a matéria</li>
+                                <li>matemática multivariada</li>
+                            </ul>
+                        </section>
+                    </a>
+                    <a href="../Semestres/4semestre.html" style="text-decoration:none;">
+                        <section class="box">
+                            <h4 class="topic">4° Semestre</h4>
+                            <ul>
+                                <li>Modelagem e Controle</li>
+                            </ul>
+                        </section>
+                    </a>
+                    <a href="../Semestres/outrossemestres.html" style="text-decoration:none; text-decoration: none;">
+                        <section class="box">
+                            <h4 class="topic">Outros Semestres</h4>
+                            <ul>
+                                <li>Inovação empresarial</li>
+                                <li>Modelo de Startup</li>
+                            </ul>
+                        </section>
+                    </a>
+                </section>
             </div>
         </main>
         <footer>
@@ -125,7 +165,7 @@
                 <h6 class="footer_title">Insper</h6>
                 <p class="footer_text">Rua Quatá, 300 - Vila Olímpia - São Paulo/SP - Brasil | CEP: 04546-042 | Tel: (11) 4504-2400</p>
                 <p class="footer_text">Examples might be simplified to improve reading and basic understanding.</p>
-                <p class="footer_text"><a href="../https://outlook.insper.edu.br" style="color:red;"><strong>Webmail</strong></a> | <a href="../http://corporativo.insper.edu.br" style="color:red;"><strong>Intranet Corporativa</strong></a></p>
+                <p class="footer_text"><a href="https://outlook.insper.edu.br" style="color:red;"><strong>Webmail</strong></a> | <a href="http://corporativo.insper.edu.br" style="color:red;"><strong>Intranet Corporativa</strong></a></p>
                 <p class="footer_text">Todos os direitos reservados.</p>
                 <p class="figure">
                     <img style="max-width:5rem;" src="../assets/img/insper_logo.png" alt="logo da faculdade">
@@ -143,6 +183,5 @@
                 document.getElementById("mySidenav").style.width = "0";
             }
         </script>
-
     </body>
 </html>
